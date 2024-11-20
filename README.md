@@ -27,7 +27,7 @@ A simple Unity Editor extension to zip your Unity project with essential folders
 - Drag the `ZipProjectUtility` folder into the `Assets` directory of your project.
 
 ### 2. Using Unity Package Import
-- Download the `.unitypackage` file from the [Releases](https://github.com/your-username/unity-zip-project/releases).
+- Download the `.unitypackage` file from the [Releases](https://github.com/farazmajid56/UnityZipProjectUtility/releases).
 - Open Unity and import the package:
   - `Assets > Import Package > Custom Package...`
 
