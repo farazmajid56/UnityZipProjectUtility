@@ -1,0 +1,23 @@
+{
+    "name": "com.farazmajid.zipprojectutility",
+    "version": "1.0.1",
+    "displayName": "Zip Project Utility",
+    "description": "A Unity Editor extension to zip your Unity project, including essential folders like Assets, ProjectSettings, and Packages, while excluding unnecessary folders such as Library, Temp, and Logs.",
+    "unity": "2022.3",
+    "keywords": [
+      "unity",
+      "package",
+      "custom",
+      "editor"
+    ],
+    "author": {
+      "name": "Faraz Majid",
+      "email": "farazmajid56@gmail.com",
+      "url": "https://github.com/farazmajid56/UnityZipProjectUtility"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/farazmajid56/UnityZipProjectUtility.git"
+    },
+    "license": "MIT"
+  }
