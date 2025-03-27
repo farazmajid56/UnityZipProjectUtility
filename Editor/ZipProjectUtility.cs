@@ -5,6 +5,18 @@ using System.IO.Compression;
 
 public class ZipProjectUtility : EditorWindow
 {
+    static string GetProjectName()
+    {
+        // Get the path to the Assets folder
+        string dataPath = Application.dataPath;
+
+        // Extract the project name from the path
+        string[] pathParts = dataPath.Split('/');
+        string projectName = pathParts[pathParts.Length - 2];
+
+        return projectName;
+    }
+
     [MenuItem("Tools/Zip Project")]
     public static void ZipProject()
     {
@@ -12,7 +24,7 @@ public class ZipProjectUtility : EditorWindow
 
         // Path to save the zip file
         string projectPath = Directory.GetCurrentDirectory();
-        string zipFileName = "UnityProject.zip";
+        string zipFileName = $"{GetProjectName()}.zip";
         string zipFilePath = Path.Combine(projectPath, zipFileName);
 
         // Folders to include in the zip
