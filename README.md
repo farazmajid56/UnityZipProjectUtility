@@ -18,19 +18,26 @@ A simple Unity Editor extension to zip your Unity project with essential folders
   - `obj/`
 
 ---
+## 📦 **Installation**
+### 1. 🌐 Using Git URL (Recommended)
+You can install the package directly from the GitHub repository using Unity’s Package Manager.
 
-## Installation
-
-### 1. Install via Unity Package
-- Clone or download this repository.
 - Open your Unity project.
-- Drag the `ZipProjectUtility` folder into the `Assets` directory of your project.
+- Go to `Window > Package Manager`.
+- Click the **+** button in the top-left corner.
+- Select **Add package from git URL...**
+- Enter the following URL:
+`https://github.com/farazmajid56/UnityZipProjectUtility.git`
 
-### 2. Using Unity Package Import
+### 2. 📦 Using Unity Package Import
 - Download the `.unitypackage` file from the [Releases](https://github.com/farazmajid56/UnityZipProjectUtility/releases).
 - Open Unity and import the package:
   - `Assets > Import Package > Custom Package...`
 
+### 3. 🚀 Manual Import
+- Clone or download this repository.
+- Open your Unity project.
+- Drag the `ZipProjectUtility` folder into the `Assets` directory of your project.
 ---
 
 ## Usage
